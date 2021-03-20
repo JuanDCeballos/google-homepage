@@ -5,29 +5,34 @@ body {
 }
 
 .nav-links {
-    height: 10vh;
+    /* height: 10vh; */
 }
 
-ul {
+.nav-links ul {
     display: flex;
     list-style: none;
     justify-content: flex-end;
     align-items: center;
 }
 
-ul li a {
+.nav-links ul li a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.9);
     padding: 15px;
 } 
 
-ul li a:hover {
+.nav-links ul li a:hover {
     text-decoration: underline;
 }
 
-ul li a i {
+.nav-links ul li a i {
+    color: rgba(0, 0, 0, .54);
     display: inline-block;
     font-size: 20px;
+}
+
+.nav-links ul li a i:hover {
+    background: #f2f2f2;
 }
 
 .profile_picture {
@@ -35,7 +40,7 @@ ul li a i {
 }
 
 .main {
-    height: 80vh;
+    height: 82.9vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,6 +51,49 @@ ul li a i {
     flex-direction: column;
 }
 
-.footer {
-    height: 10vh;
+/* .main .container .search-text {
+    display: inline-block;
+    width: 200px;
+} */
+
+footer {
+    background: #f2f2f2;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+    border-top: 1px solid #dadce0;
+}
+
+.container-footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.container-footer ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .54);
+    font-size: 15px;
+}
+
+.container-footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.container-footer .right a {
+    margin-right: 35px;
+}
+
+.container-footer .left a {
+    padding-right: 35px;
+}
+
+.country {
+    padding-left: 35px;
+    font-size: 15px;
+    background: #f2f2f2;
+    padding-top: 15px;
+    color: rgba(0, 0, 0, .54);
 }
