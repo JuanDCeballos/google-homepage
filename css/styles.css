@@ -88,6 +88,13 @@ body {
     padding-left: 3px;
 }
 
+.aa .input {
+    width: 500px;
+    height: 42px;
+    border: none;
+    outline: none;
+}
+
 .btn {
     display: flex;
     justify-content: center;
@@ -116,6 +123,7 @@ footer {
 
 .container-footer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background: #f2f2f2;
     border-top: 1px solid #dadce0;
