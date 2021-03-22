@@ -51,10 +51,46 @@ body {
     flex-direction: column;
 }
 
-/* .main .container .search-text {
+.main_logo {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.search-text {
     display: inline-block;
-    width: 200px;
-} */
+    width: 584px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+    margin: 30px;
+} 
+
+.search-text:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn .cta {
+    margin: 5px;
+    width: 120px;
+    height: 35px;
+    background-color: #f2f2f2;
+    border: none;
+    border: 1px solid #f2f2f2;
+    color: #3c4043;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+.btn .cta:hover {
+    border: 1px solid #dadce0;
+}
 
 footer {
     background: #f2f2f2;
