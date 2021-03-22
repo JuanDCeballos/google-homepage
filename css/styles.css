@@ -80,12 +80,14 @@ body {
     display: block;
     height: 30px;
     padding: 3px;
+    cursor: pointer;
 }
 
 .aa .fa-search {
     display: block;
     padding: 15px;
     padding-left: 3px;
+    cursor: pointer;
 }
 
 .aa .input {
