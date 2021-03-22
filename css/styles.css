@@ -66,6 +66,28 @@ body {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
 
+.aa {
+    width: 584px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8px 0 16px;
+}
+
+.aa .micro {
+    display: block;
+    height: 30px;
+    padding: 3px;
+}
+
+.aa .fa-search {
+    display: block;
+    padding: 15px;
+    padding-left: 3px;
+}
+
 .btn {
     display: flex;
     justify-content: center;

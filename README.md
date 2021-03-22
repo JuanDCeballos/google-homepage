@@ -1,0 +1,1 @@
+I learn so much from this project, at the very beginig of this project i don't know nothing, but at this point, when the project it's done, I learn so much, learn thath devtools are awesome, the comunity help me so much, I think that's it for my first project, hope to do the resto of the path, and then move to full stack JavaScript.
